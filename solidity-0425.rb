@@ -10,13 +10,6 @@ class Solidity0425 < Formula
     strategy :github_latest
   end
 
-  bottle do
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "565735812a75a8099b5deaf539726a3cb46c3e0c5cdbc85e7f951e6ca9fd7afd"
-    sha256 cellar: :any_skip_relocation, big_sur:       "db914ca408f79ba7aa3132477ad43b01053a3d41af810a0362c34ef287e366ed"
-    sha256 cellar: :any_skip_relocation, catalina:      "aaa6137646ced7eabe52fbeb9e5429941b761c24b5d54446f19666edb40b1caf"
-    sha256 cellar: :any_skip_relocation, mojave:        "b7936bbf08dcbc968be091b43922c5ed11072cd8e204fd66f5ad6a2f01789599"
-  end
-
   depends_on "cmake" => :build
   depends_on xcode: ["11.0", :build]
   #depends_on "boost"
