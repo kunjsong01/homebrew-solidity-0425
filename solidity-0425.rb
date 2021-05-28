@@ -1,4 +1,4 @@
-class Solidity < Formula
+class Solidity0425 < Formula
   desc "Contract-oriented programming language"
   homepage "https://soliditylang.org"
   url "https://github.com/kunjsong01/solidity-0425/archive/refs/tags/v0.4.25.tar.gz"
